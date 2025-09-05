@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "type_traits": "c",
+        "stdbool.h": "c",
+        "assert.h": "c",
+        "main.h": "c",
+        "tests.h": "c",
+        "unity.h": "c"
+    },
+    "makefile.configureOnOpen": false
+}
