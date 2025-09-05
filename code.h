@@ -1,6 +1,11 @@
-// main.h
-#ifndef MAIN_H // include guard prevents multiple inclusion
-#define MAIN_H
+// code.h
+#ifndef CODE_H // include guard prevents multiple inclusion
+#define CODE_H
+
+// comments
+char * AUTHOR_NAME; 
+char * AUTHOR_AUTHORSHIP;
+
 // ----------------- DATA STRUCTURES -----------------
 // Declaration of a simple test struct
 
@@ -13,8 +18,12 @@ struct TestStruct
 int a;      // test variable 'a'
 int * p;    // pointer used in tests
 
+
+
 // ----------------- FUNCTION PROTOTYPES -----------------
 int multiply(int x, int y);    // multiplies two integers
 int addOne(int * pointer);     // increments value pointed to by pointer
+
+
 
 #endif

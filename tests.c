@@ -1,5 +1,5 @@
 //#include <assert.h>   // commented out, not needed
-#include "main.h"
+#include "code.h"
 #include "tests.h"
 #include "unity.h"
 
