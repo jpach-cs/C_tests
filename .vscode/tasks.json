@@ -4,7 +4,7 @@
         {
             "label": "build",
             "type": "shell",
-            "command": "mingw32-make",
+            "command": "mingw32-make all", // "command": "mingw32-make student", //mingw32-make all
             "group": "build"
         }
     ]

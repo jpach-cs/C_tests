@@ -5,6 +5,7 @@ TARGET = main.exe
 
 .PHONY: all clean
 
+# ===== Default build (with source code) =====
 all: $(TARGET)
 
 $(TARGET): $(OBJS)
@@ -21,6 +22,12 @@ unity.o: unity.c unity.h
 
 code.o: code.c code.h
 	$(CC) $(CFLAGS) -c code.c -o code.o
+
+# ===== Student build (with precompiled code.o) =====
+student: main.o tests.o unity.o code.o
+	$(CC) main.o tests.o unity.o code.o -o $(TARGET)
+
+# Note: here code.o is assumed to be precompiled and distributed
 
 clean:
 	del /f *.o $(TARGET)
