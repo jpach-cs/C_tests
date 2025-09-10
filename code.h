@@ -3,8 +3,8 @@
 #define CODE_H
 
 // comments
-char * AUTHOR_NAME; 
-char * AUTHOR_AUTHORSHIP;
+extern char * AUTHOR_NAME; 
+extern char * AUTHOR_AUTHORSHIP;
 
 // ----------------- DATA STRUCTURES -----------------
 // Declaration of a simple test struct
